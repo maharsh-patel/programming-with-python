@@ -2,7 +2,7 @@
 Question 7:
 Write a Python program to count the number of odd
 numbers from three given numbers and display the
-maximum odd number.
+maximum odd number. 
 """
 
 
@@ -12,8 +12,8 @@ C = int(input("Enter 3rd number: "))
 
 print("")
 
-count = 0
-max_odd = -1
+count =0
+max_odd =-1
 
 if A%2!=0:
     count= count+1
@@ -35,3 +35,4 @@ if count>0:
     print("Maximum odd number:", max_odd)
 else:
     print("no odd numbers")
+
