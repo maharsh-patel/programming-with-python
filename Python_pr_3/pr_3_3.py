@@ -3,6 +3,8 @@
 string = "sammys sells seashells by the seashore"
 
 print(string.split())
+
 for word in string.split():
     if word.startswith('s'):
         print(word)
+
