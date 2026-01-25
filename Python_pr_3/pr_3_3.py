@@ -8,3 +8,4 @@ for word in string.split():
     if word.startswith('s'):
         print(word)
 
+
